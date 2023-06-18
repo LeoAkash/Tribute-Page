@@ -1,0 +1,134 @@
+body{
+
+    background-color:#022a30 ;
+ 
+}
+
+.heading{
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.sub-heading{
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 25px;
+    margin-left: 110px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.words {
+    text-align: justify;
+
+    height: 100vh;
+    margin-left: 110px;
+    padding: 200px;
+ font-size: 2em;
+ color: aliceblue;
+margin-top: -200px;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+
+    height: 30vh; /* Set the container height to the full viewport height */
+  }
+  
+  .container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    max-height: 100%;
+    border-radius: 25px;
+    margin-left: 100px;
+  }
+  .navbar {
+     position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height:100% ;
+    background-color:transparent;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    padding: 50px;
+    font-size: larger;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color:whitesmoke;
+  }
+    @media (max-width: 768px) {
+    .navbar {
+    
+      bottom: 0;
+      height: 80px;
+      background-color: #022a30;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar ul {
+      flex-direction: row;
+    }
+  
+    .navbar li {
+      padding: 10px;
+    
+    }
+    .sub-heading{
+margin-right: 60px;
+    }
+  
+    .container {
+        display: flex;
+        justify-content: center;
+        
+      }
+      
+      .container img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 25px;
+        margin-right:100px;
+      }
+      
+    .words {
+      margin-left: 20px;
+      font-size: 25px;
+    }
+  
+    .heading,.sub-heading
+    .container {
+      margin: 0 auto;
+    }
+  
+    .words {
+        margin-top: 50px;
+      padding: 10px;
+    }
+  }
+  
